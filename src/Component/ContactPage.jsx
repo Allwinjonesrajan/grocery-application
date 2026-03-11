@@ -177,7 +177,7 @@ function ContactPage() {
           <h3 style={styles.socialTitle}>Follow Us</h3>
           <div style={styles.socialIcons}>
             {['📘', '📷', '🐦', '📱', '💼'].map((icon, i) => (
-              <a key={i} href="#" style={styles.socialIcon}>{icon}</a>
+              <a key={i} href="/" style={styles.socialIcon}>{icon}</a>
             ))}
           </div>
         </div>

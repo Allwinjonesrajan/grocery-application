@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useCart } from './CartContext';
 
 function CheckoutDetails({ onNext, onBack }) {
   const [formData, setFormData] = useState({
